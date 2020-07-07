@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
+import com.randomizer.dao.RandomAddressDao;
 import com.randomizer.service.RandomAddressService;
 
 
@@ -21,6 +22,9 @@ class RandomAddressTests {
 	
 	@Autowired
 	RandomAddressService randomAddressService;
+	
+	@Autowired
+	RandomAddressDao randomAddressDao;  
 
 	@Test
 	@DisplayName("Checking if house is not empty and not null")
@@ -47,9 +51,16 @@ class RandomAddressTests {
 		assertTrue("/randomizer".equals(rootContext) );
 	}
 	
+	@Test
+	@DisplayName("Address List not empty and not null")
+	void testAddressListEmpty() {
+		assertTrue(randomAddressDao.getAllAddresses() != null && !randomAddressDao.getAllAddresses().isEmpty() );
+	}
 	
-	
-	
-
+	@Test
+	@DisplayName("Check if list has 10 elements")
+	void testAddressListSize() {
+		assertTrue(randomAddressDao.getAllAddresses().size() == 10 );
+	}
 
 }
