@@ -62,5 +62,10 @@ class RandomAddressTests {
 	void testAddressListSize() {
 		assertTrue(randomAddressDao.getAllAddresses().size() == 10 );
 	}
+	
+	
+	
+	
+
 
 }

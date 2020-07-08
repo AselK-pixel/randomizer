@@ -1,0 +1,115 @@
+07-07-2020 22:23:24.131 [main] INFO  com.randomizer.RandomizerApplication.logStarting - Starting RandomizerApplication on DESKTOP-C19SUK1 with PID 15908 (C:\WORKS\workspaces\workspace-java8\randomizer\target\classes started by naim in C:\WORKS\workspaces\workspace-java8\randomizer)
+07-07-2020 22:23:24.131 [main] INFO  com.randomizer.RandomizerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-07-2020 22:23:24.873 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-07-2020 22:23:24.879 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:23:24.888 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2020 22:23:24.888 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+07-07-2020 22:23:24.954 [main] INFO  o.a.c.c.C.[.[.[/randomizer].log - Initializing Spring embedded WebApplicationContext
+07-07-2020 22:23:24.954 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 769 ms
+07-07-2020 22:23:25.099 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-07-2020 22:23:25.188 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:23:25.211 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path '/randomizer'
+07-07-2020 22:23:25.211 [main] INFO  com.randomizer.RandomizerApplication.logStarted - Started RandomizerApplication in 1.336 seconds (JVM running for 2.382)
+07-07-2020 22:23:39.934 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/randomizer].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-07-2020 22:23:39.935 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-07-2020 22:23:39.940 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 5 ms
+07-07-2020 22:23:39.958 [http-nio-8080-exec-1] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:25:09.667 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+07-07-2020 22:25:09.965 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+07-07-2020 22:47:13.595 [main] INFO  com.randomizer.RandomizerApplication.logStarting - Starting RandomizerApplication on DESKTOP-2GGPGOG with PID 1428 (C:\Users\17039\eclipse-workspace\randomizer\target\classes started by 17039 in C:\Users\17039\eclipse-workspace\randomizer)
+07-07-2020 22:47:13.599 [main] DEBUG com.randomizer.RandomizerApplication.logStarting - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+07-07-2020 22:47:13.600 [main] INFO  com.randomizer.RandomizerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-07-2020 22:47:15.088 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-07-2020 22:47:15.096 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:47:15.097 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2020 22:47:15.097 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+07-07-2020 22:47:15.165 [main] INFO  o.a.c.c.C.[.[.[/randomizer].log - Initializing Spring embedded WebApplicationContext
+07-07-2020 22:47:15.166 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1486 ms
+07-07-2020 22:47:15.391 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-07-2020 22:47:15.550 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:47:15.569 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+07-07-2020 22:47:15.572 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+07-07-2020 22:47:15.577 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Pausing ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:47:15.578 [main] INFO  o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+07-07-2020 22:47:15.587 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Stopping ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:47:15.588 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Destroying ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:47:15.599 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+07-07-2020 22:47:15.607 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+07-07-2020 22:48:05.703 [main] INFO  com.randomizer.RandomizerApplication.logStarting - Starting RandomizerApplication on DESKTOP-2GGPGOG with PID 11316 (C:\Users\17039\eclipse-workspace\randomizer\target\classes started by 17039 in C:\Users\17039\eclipse-workspace\randomizer)
+07-07-2020 22:48:05.705 [main] DEBUG com.randomizer.RandomizerApplication.logStarting - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+07-07-2020 22:48:05.706 [main] INFO  com.randomizer.RandomizerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-07-2020 22:48:06.980 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+07-07-2020 22:48:06.996 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:48:06.997 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+07-07-2020 22:48:06.998 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.36]
+07-07-2020 22:48:07.108 [main] INFO  o.a.c.c.C.[.[.[/randomizer].log - Initializing Spring embedded WebApplicationContext
+07-07-2020 22:48:07.110 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1362 ms
+07-07-2020 22:48:07.304 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-07-2020 22:48:07.430 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8080"]
+07-07-2020 22:48:07.456 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path '/randomizer'
+07-07-2020 22:48:07.471 [main] INFO  com.randomizer.RandomizerApplication.logStarted - Started RandomizerApplication in 2.199 seconds (JVM running for 3.331)
+07-07-2020 22:48:14.026 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/randomizer].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+07-07-2020 22:48:14.029 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+07-07-2020 22:48:14.051 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 21 ms
+07-07-2020 22:48:14.096 [http-nio-8080-exec-1] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:48:14.097 [http-nio-8080-exec-1] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:48:14.098 [http-nio-8080-exec-1] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 5
+07-07-2020 22:48:17.554 [http-nio-8080-exec-2] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:48:17.555 [http-nio-8080-exec-2] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:48:17.556 [http-nio-8080-exec-2] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 7
+07-07-2020 22:48:18.271 [http-nio-8080-exec-3] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:48:18.272 [http-nio-8080-exec-3] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:48:18.273 [http-nio-8080-exec-3] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 3
+07-07-2020 22:48:18.904 [http-nio-8080-exec-4] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:48:18.904 [http-nio-8080-exec-4] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:48:18.905 [http-nio-8080-exec-4] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 5
+07-07-2020 22:48:19.324 [http-nio-8080-exec-5] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:48:19.325 [http-nio-8080-exec-5] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:48:19.325 [http-nio-8080-exec-5] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 6
+07-07-2020 22:48:19.564 [http-nio-8080-exec-6] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:48:19.565 [http-nio-8080-exec-6] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:48:19.565 [http-nio-8080-exec-6] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 2
+07-07-2020 22:48:19.762 [http-nio-8080-exec-7] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:48:19.763 [http-nio-8080-exec-7] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:48:19.764 [http-nio-8080-exec-7] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 2
+07-07-2020 22:48:19.963 [http-nio-8080-exec-8] DEBUG c.r.c.RandomAddressController.getRandomAddress - Request reached controller
+07-07-2020 22:48:19.963 [http-nio-8080-exec-8] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:48:19.964 [http-nio-8080-exec-8] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 5
+07-07-2020 22:53:56.819 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.buildDefaultMergedContextConfiguration - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.randomizer.RandomAddressTests], using SpringBootContextLoader
+07-07-2020 22:53:56.828 [main] INFO  o.s.t.c.s.AbstractContextLoader.generateDefaultLocations - Could not detect default resource locations for test class [com.randomizer.RandomAddressTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+07-07-2020 22:53:56.830 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses - Could not detect default configuration classes for test class [com.randomizer.RandomAddressTests]: RandomAddressTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07-07-2020 22:53:56.983 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses - Found @SpringBootConfiguration com.randomizer.RandomizerApplication for test class com.randomizer.RandomAddressTests
+07-07-2020 22:53:57.170 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getDefaultTestExecutionListenerClassNames - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+07-07-2020 22:53:57.205 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper.getTestExecutionListeners - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@221a3fa4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@451001e5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2b40ff9c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3e08ff24, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d1c005e, org.springframework.test.context.event.EventPublishingTestExecutionListener@8462f31, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@24569dba, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ddeb7cb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@70ed52de, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@496bc455, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59402b8f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@7188af83]
+07-07-2020 22:53:57.602 [main] INFO  com.randomizer.RandomAddressTests.logStarting - Starting RandomAddressTests on DESKTOP-2GGPGOG with PID 15580 (started by 17039 in C:\Users\17039\eclipse-workspace\randomizer)
+07-07-2020 22:53:57.604 [main] DEBUG com.randomizer.RandomAddressTests.logStarting - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+07-07-2020 22:53:57.605 [main] INFO  com.randomizer.RandomAddressTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+07-07-2020 22:53:59.368 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+07-07-2020 22:53:59.771 [main] INFO  com.randomizer.RandomAddressTests.logStarted - Started RandomAddressTests in 2.5 seconds (JVM running for 4.634)
+07-07-2020 22:54:00.116 [main] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:54:00.117 [main] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:54:00.126 [main] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:54:00.128 [main] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 1
+07-07-2020 22:54:00.138 [main] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:54:00.148 [main] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:54:00.148 [main] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 8
+07-07-2020 22:54:00.150 [main] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:54:00.150 [main] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 8
+07-07-2020 22:54:00.171 [main] DEBUG c.r.dao.impl.RandomAddressDaoImpl.getAllAddresses - Loaded list of addresses
+07-07-2020 22:54:00.172 [main] DEBUG c.r.s.impl.RandomAddressServiceImpl.getRandomAddress - Random Index: 8
+07-07-2020 22:54:00.188 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'

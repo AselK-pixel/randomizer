@@ -3,6 +3,8 @@ package com.randomizer.dao.impl;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
 import com.randomizer.dao.RandomAddressDao;
@@ -10,6 +12,8 @@ import com.randomizer.domain.AddressVO;
 
 @Repository
 public class RandomAddressDaoImpl implements RandomAddressDao{
+	
+	private static final Logger logger = LoggerFactory.getLogger(RandomAddressDaoImpl.class);
 	
 	@Override
 	public List<AddressVO> getAllAddresses(){
@@ -26,6 +30,8 @@ public class RandomAddressDaoImpl implements RandomAddressDao{
 		addressVOs.add(new AddressVO("112", "5th St", "3419", "Amsterdam", "Amsterdam", null, null, null, "NLD"));
 		addressVOs.add(new AddressVO("9848", "Fair St", "1302", "Vancouver", "Vancouver", null, "BC", "Canada", "CAN"));
 		addressVOs.add(new AddressVO("556", "Juan Marco St ", "9437", "Chihuahua", "Chihuahua", null, null, "Mexico", "MEX"));
+		
+		logger.debug("Loaded list of addresses");
 		
 		return addressVOs;		
 	}

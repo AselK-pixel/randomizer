@@ -3,6 +3,8 @@ package com.randomizer.service.impl;
 import java.util.List;
 import java.util.Random;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -12,6 +14,8 @@ import com.randomizer.service.RandomAddressService;
 
 @Service
 public class RandomAddressServiceImpl implements RandomAddressService {
+	
+	private static final Logger logger = LoggerFactory.getLogger(RandomAddressServiceImpl.class);
 	
 	@Autowired
 	RandomAddressDao randomAddressDao;
@@ -26,7 +30,7 @@ public class RandomAddressServiceImpl implements RandomAddressService {
 		if(!addressVOs.isEmpty()) {
 			Random rand = new Random();
 			int randomNum = rand.nextInt(addressVOs.size());
-			System.out.println("Random Number: "+ randomNum);
+			logger.debug("Random Index: "+ randomNum);
 			
 			addressVO = addressVOs.get(randomNum);
 		}		
